@@ -37,8 +37,8 @@
                 </div>
 
                 <div class="form_group">
-                    <label for="password_comfirmation">确认密码：</label>
-                    <input type="password" name="password_comfirmation" class="form-control" value="{{ old('password_comfirmation') }}">
+                    <label for="password_confirmation">确认密码：</label>
+                    <input type="password" name="password_confirmation" class="form-control" value="{{ old('password_confirmation') }}">
                 </div>
 
                 <button type="submit" class="btn btn-primary">更新</button>
